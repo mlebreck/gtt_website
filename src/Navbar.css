@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-text h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .logo-text p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
