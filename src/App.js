@@ -6,8 +6,8 @@ import Staff from './Staff';
 
 const App = () => {
   return (
-    <Router basename="/gtt_website">
-      <Navbar />
+    <Router basename="">
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/staff" element={<Staff />} />
